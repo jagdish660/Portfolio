@@ -1,0 +1,158 @@
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 20px;
+}
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.nav{
+  margin: 0;
+  height: 50px;
+  width: 150px;
+  padding: 0;
+  display: flex; /* Make it a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+}
+.nav:hover{
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s, text-shadow 0.3s;
+  background-color: #4b4646;
+}
+
+.navbar a:active {
+  transform: scale(1); 
+  color: #eeaca1;
+}
+.nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 1rem;
+  background-color: rgb(221, 221, 214);
+}
+
+p {
+  width: 90%;
+  margin: 0 auto; 
+  text-align: center; 
+  line-height: 1.6; 
+  margin-bottom: 1rem; 
+  color: #333; 
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8{
+  height:8%;
+  width: 8%;
+  margin: 10px 20px;
+}
+
+.img{
+  margin: 10px;
+  
+}
+#img_phone{
+  height:25px;
+  width: 25px;
+  
+}
+.call{
+  display: flex;
+  justify-content: center;
+}
+.call p{
+  margin: 0 0rem;
+}
+.call a{
+  color: #000;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#imgs1,#imgs2,#imgs3,#imgs4{
+  height:90px;
+  width: 90px;
+  margin: 10px 20px;
+}
+
+.education-section {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.education-table th, 
+.education-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.education-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.education-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.education-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.education-table th, .education-table td {
+  font-size: 16px;
+}

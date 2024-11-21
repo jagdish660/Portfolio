@@ -1,0 +1,46 @@
+.form{
+    width: 500px;
+    background-color: rgb(144, 148, 147);
+    border-radius: 8px;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 20px 0;  
+
+  }
+  
+label{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+input{
+    border-radius: 15px;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 25px;
+
+}
+#message{
+    width: 350px;
+    height: 150px;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#submit{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
